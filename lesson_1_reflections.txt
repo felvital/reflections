@@ -1,0 +1,28 @@
+1-How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Seeing the plus and minus symbols really helped me to keep track of what actually changed between the two files. It was a really fast proccess and that is good when you have a really long file. The diff command is really intuitive and that is also good when using a new way of comparing things.
+
+2-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It's comparable to having a time machine, you can go back in time if you think an earlier version of your work is better than the current one. It also makes it easy on the programmer to experiment with new things, knowing that if does not work out, they can always come back to the earlier version.
+
+3-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: you have all the control over when to save between changes. That is really good to make sure that the project is complilable after every commit. Changes are more logically connected. Automatically saving has a lot of unneeded material.
+Cons: you have to decide every time you have to save, so that is more likely that you will forget to save and a good amount of the project can be lost. 
+
+4-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+It's really dependent on the type of files they offer. Git is more universal than Google Docs, it is related to coding, so it is more natural that it will offer this option of savinge multiple files in one commit, as many languages requires multiple files to be compiled. As in the case of Google Docs, they are only treating .doc files and they are usually pretty independent of each other.
+
+5-How can you use the commands git log and git diff to view the history of files?
+
+You can use git log to see the entire history of the files in one project folder. You can also use the --stat to see the changes that happened in each file after each commit. Every commit has an ID. Using the IDs from two different commits (usually one subsequent from the other) and the command git diff, you can see all the changes that happened within each file. The deletions are marked with the color red and the insertions with the color green. That is the case if you are using the following command git config --global color.ui auto.
+
+6-How might using version control make you more confident to make changes that could break something?
+
+It is good to use version control when making changes because you can always revert back to a time when the change was not made and see if a bug was accidentally introduced after the change. Using the git diff, you can always compared two files before and after the bug was introduced to see where is more likely the bug.
+
+7-Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git to every type of programming that I have to do, so that I always have the option to make changes as I see fit, without worrying about bugs.
