@@ -5,3 +5,7 @@ It creates a .git folder with all the needed files for a git repository. You nee
 2-How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a place that is temporary for the files. Before finishing a commit, you should be able to bundle all of the changes that you wanna do. So the staging area is the place where you do that, still maintaining the repository and the working directory intact.
+
+3-How can you use the staging area to make sure you have one commit per logical change?
+
+You can select which files are going inside the staging area in order to group the files together that are connected in the same logical change. And you can use the diff command along with another tools to check what are the changes from the files on the staging area and the ones on the last commit of the working directory. And then you can make your commit when you see that the changes are logically tied.
