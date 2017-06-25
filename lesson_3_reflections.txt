@@ -11,3 +11,7 @@ Because sometimes you don't want to share incomplete ideas with other people. Th
 Forks: used only by GitHub. It is a cloning that keeps track of the original repository and gives credit for the creator of that repository.
 Clones: it is the most simple form of cloning that applies to every type of repository, both local and remote.
 Branches: it is only the label of different parthways of the same repository. They only make sense when talking about a single repository.
+
+4-What is the benefit of having a copy of the last known state of the remote stored locally?
+
+That is helpful so you know what was on the remote the last time the two were synced with each other. When multiple people are working on the same remote, it may be hard to push and pull commits if you don't know where your commit would fit in the history of the files.
