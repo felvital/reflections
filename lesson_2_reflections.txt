@@ -13,3 +13,7 @@ You can select which files are going inside the staging area in order to group t
 4-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When you want to try something experimental and still keep an usable version of your software. They can help you organize your work in things that are completely independent of each other and can be worked in parallel.
+
+5-How do the diagrams help you visualize the branch structure?
+
+It was pretty easy to imagine the branch structure as in a tree. And then the branch name makes even more sense. It was visualy as in a tree and the drawing made some indications of this fact.
