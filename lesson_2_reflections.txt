@@ -17,3 +17,7 @@ When you want to try something experimental and still keep an usable version of 
 5-How do the diagrams help you visualize the branch structure?
 
 It was pretty easy to imagine the branch structure as in a tree. And then the branch name makes even more sense. It was visualy as in a tree and the drawing made some indications of this fact.
+
+6-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is as if the two branches were made into one. So that the master branch have all the changes that were introduced and tested on the previously separated branch. The representation matches that as a union of the two branches.
