@@ -21,3 +21,8 @@ It was pretty easy to imagine the branch structure as in a tree. And then the br
 6-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result is as if the two branches were made into one. So that the master branch have all the changes that were introduced and tested on the previously separated branch. The representation matches that as a union of the two branches.
+
+7-What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: you don't have to change the files manually. That makes merging really easier.
+Cons: you have to resolve each conflict by itself since git does not know which change is more needed to the final file if they are ambiguous.
